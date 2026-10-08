@@ -1,0 +1,42 @@
+# Build directories
+build/
+out/
+bin/
+obj/
+cmake-build-*/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+_deps/
+
+# Compiled binaries
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.gch
+*.pch
+
+# IDE
+.vscode/
+.idea/
+.vs/
+*.user
+*.suo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor temp files
+*~
+*.swp
+*.swo
