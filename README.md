@@ -1,6 +1,6 @@
 # HTTP Server
 
-> A minimal C++ HTTP server built from raw sockets — no frameworks, just bytes.
+> An HTTP server built from scratch in C++ using raw sockets, without any frameworks.
 
 ## Requirements
 
@@ -10,16 +10,14 @@
 ## Build
 
 ```bash
-mkdir -p build
-cd build
-cmake ..
-make
+cmake -S . -B build
+cmake --build build -j
 ```
 
 ## Run
 
 ```bash
-./http-server
+./build/http-server
 ```
 
 The server listens on `0.0.0.0:8080`.
@@ -31,6 +29,10 @@ Once running, open a browser or use curl:
 ```bash
 curl http://localhost:8080
 ```
+
+## How it's working?
+
+The server creates a TCP socket, binds it to an address and port, starts listening for connections, accepts clients, reads the incoming bytes, and sends back a manually constructed HTTP response.
 
 ## Project Structure
 
