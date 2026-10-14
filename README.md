@@ -1,5 +1,7 @@
 # HTTP Server
 
+![diagram](diagram.png)
+
 > An HTTP server built from scratch in C++ using raw sockets, without any frameworks.
 
 ## Requirements
@@ -44,3 +46,4 @@ The server creates a TCP socket, binds it to an address and port, starts listeni
 ├── http_tcpServer.cpp      # TcpServer implementation
 └── diagram.png             # Architecture diagram
 ```
+![details](details.png)
