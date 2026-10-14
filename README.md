@@ -44,6 +44,5 @@ The server creates a TCP socket, binds it to an address and port, starts listeni
 ├── server.cpp              # Entry point
 ├── http_tcpServer.h        # TcpServer class declaration
 ├── http_tcpServer.cpp      # TcpServer implementation
-└── diagram.png             # Architecture diagram
 ```
 ![details](details.png)
