@@ -45,4 +45,4 @@ The server creates a TCP socket, binds it to an address and port, starts listeni
 ├── http_tcpServer.h        # TcpServer class declaration
 ├── http_tcpServer.cpp      # TcpServer implementation
 ```
-![details](details.png)
+[![Architecture diagram of harisahmed05/http-server](https://gitdiagram.com/harisahmed05/http-server/diagram.png)](https://gitdiagram.com/harisahmed05/http-server?utm_source=readme&utm_medium=picture)
